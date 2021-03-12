@@ -1,0 +1,224 @@
+     :root {
+        --main-text: #000000;
+        --title-color: #212121;
+        --paragraph-color: #757575;
+        --links-color: rgba(255, 255, 255, 0.6);
+        --dark-bg-color: #2F303A;
+        --accent-color: #2196F3;
+        --buttons-background: #F5F4FA;
+        --main-background: #FFFFFF;
+    }
+    
+    body {
+        color: var(--main-text);
+        background-color: var(--main-background);
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    address {
+        font-style: normal;
+    }
+    
+    .footer-link,
+    .location,
+    .section-text,
+    .buttons,
+    .logo {
+        letter-spacing: 0.03em;
+    }
+    
+    .site-nav .link,
+    .header-link,
+    .location,
+    .footer-link {
+        font-size: 14px;
+    }
+    
+    .logo,
+    .site-nav .link,
+    .header-link,
+    .footer-link {
+        text-decoration: none;
+    }
+    
+    .location,
+    .footer-link {
+        line-height: 1.72;
+    }
+    
+    .section-title,
+    .title-intro,
+    .button-intro {
+        letter-spacing: 0.06em;
+    }
+    /* --------- Site Logo -------------- */
+    
+    .logo {
+        color: var(--main-text);
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 1.20;
+    }
+    
+    .logo-title {
+        color: var(--accent-color);
+    }
+    
+    .logo-text {
+        color: var(--main-background);
+    }
+    /* --------- Nav--------------------- */
+    
+    .site-nav .link {
+        color: var(--main-text);
+        font-weight: 500;
+        line-height: 1.15;
+        letter-spacing: 0.02em;
+    }
+    
+    .link.active {
+        color: var(--accent-color);
+    }
+    
+    .header-link {
+        color: var(--paragraph-color);
+        font-weight: 500;
+        line-height: 1.15;
+        letter-spacing: 0.02em;
+    }
+    
+    .header-link:hover {
+        color: var(--accent-color);
+    }
+    /*---------- Portfolio Buttons ---------  */
+    
+    .buttons {
+        color: var(--title-color);
+        background: var(--buttons-background);
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.63;
+        text-align: center;
+    }
+    
+    .buttons:focus,
+    .buttons:active {
+        color: var(--main-background);
+        background: var(--accent-color);
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+    /* --------- Section Main -------------- */
+    
+    .section-title {
+        color: var(--title-color);
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 2;
+    }
+    
+    .section-text {
+        color: var(--paragraph-color);
+        font-size: 16px;
+        line-height: 1.88;
+    }
+    /*------------- Footer -----------------*/
+    
+    .footer {
+        background-color: var(--dark-bg-color);
+    }
+    
+    .location {
+        color: var(--main-background);
+    }
+    
+    .footer-link {
+        color: var(--links-color);
+    }
+    /*================ Index Page ================================*/
+    /* ------Section Intro ------------*/
+    
+    .section-intro {
+        background-color: var(--dark-bg-color);
+    }
+    
+    .title-intro {
+        color: var(--main-background);
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.37;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .button-intro {
+        color: var(--main-background);
+        background: var(--accent-color);
+        font-family: inherit;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 1.88;
+    }
+    
+    .button-intro:hover,
+    .button-intro:focus {
+        background: #188CE8;
+    }
+    /*------ Section Priorities -----------------*/
+    
+    .priorities-title {
+        color: var(--title-color);
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+    }
+    
+    .priorities-text {
+        color: var(--paragraph-color);
+        font-size: 14px;
+        line-height: 1.72;
+    }
+    /*--------- Section Team -------------------*/
+    
+    .team-section {
+        background-color: var(--buttons-background);
+    }
+    
+    .team-member {
+        color: var(--title-color);
+        font-weight: 500;
+    }
+    
+    .position {
+        color: var(--paragraph-color);
+    }
+    
+    .priorities-text,
+    .priorities-title,
+    .services-title,
+    .team-title,
+    .team-member,
+    .position {
+        letter-spacing: 0.03em;
+    }
+    
+    .team-member,
+    .position {
+        font-size: 16px;
+        line-height: 1.19;
+    }
+    
+    .services-title,
+    .team-title {
+        color: var(--title-color);
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+    }
